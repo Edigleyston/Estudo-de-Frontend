@@ -1,0 +1,122 @@
+body{
+    /*margin é o que está além da caixa da página, do conteúdo principal*/
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.page{
+    /*border: 1px solid red;*/
+    width: 1000px;
+    margin: 65px auto 0; /*margin é formado na ordem por topo lado e baixo*/
+
+    /*borda
+    border: 1px solid red;*/
+
+    /*padding é um preenchimento
+    padding: 8px;*/
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 124px;
+}
+
+/*text-decoration none é para tirar o sublinhado*/
+ul li a{
+    text-decoration: none;
+    color: #1F1534;
+}
+#home{
+    font-weight: bold;
+}
+
+/*pseudo class, hover= qd passar o mouse por cima fica mais escurinho a fonte*/
+ul li a:hover {
+    font-weight: bold;
+}
+ul li a{
+    opacity: 0.5;
+}
+
+ul{
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h1, ul{
+    font-family: 'Mulish', sans-serif;
+
+}
+h1{
+    font-size: 49px;
+    line-height: 56px;
+    color: #000;
+    font-weight: normal;
+    width: 490px;
+}
+h1 span{
+    color: #89C5CC;
+    font-weight: bold;
+}
+section p{
+    font-size: 14px;
+    line-height: 28px;
+    font-family: 'Open Sans', sans-serif;
+    color: #7D7987;
+    margin-bottom: 40px;
+
+}
+footer{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+
+    text-align: center;
+}
+footer a:hover {
+    font-weight: bold;
+}
+footer a{
+    text-decoration: none;
+}
+button{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+button{
+    display: flex;
+    align-items: center;
+    background: #69B99D;
+    border: 0;
+    justify-content: center;
+    padding: 14px 32px 15px;
+    border-radius: 4px;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #45a181;
+}
+#balls{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+}
