@@ -1,4 +1,4 @@
 # Estudo-de-Frontend
-Aqui irei postar minha progressão no estudo front-end.
+Primeiro post do estudo.
 
 As imagens devem ficar dentro de uma pasta.
